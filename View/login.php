@@ -10,20 +10,14 @@
 </head>
 
 <body>
-    <div class="login-box">
-        <h2>Login</h2>
-        <form method="POST" action="#">
-            <div class="user-box">
-                <label for="">Username</label>
-                <input type="text" name="username">
-            </div>
-            <div class="user-box">
-                <label for="">Password</label>
-                <input type="password" name="password">
-                <button type="submit" class="btn btn-primary" name="submit">Uloguj se</button>
-            </div>
-        </form>
-    </div>
+    <form method="POST" action="#">
+        <h1>LOGIN</h1>
+        <input type="text" name="username" placeholder="Username" required>
+        <br>
+        <input type="password" name="password" placeholder="Password" required>
+        <br>
+        <button type="submit" name="submit">Login</button>
+    </form>
 </body>
 
 </html>

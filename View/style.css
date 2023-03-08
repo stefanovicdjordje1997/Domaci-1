@@ -1,63 +1,54 @@
-html{
-    height: 100%;
-}
 body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: url("images/background.jpg") no-repeat center fixed;     
-    background-size: cover;
+    background-color: bisque;
 }
-.login-box{
+form{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 400px;
-    padding: 40px;
     transform: translate(-50%, -50%);
-    backdrop-filter: blur(5px);
     box-sizing: border-box;
-    box-shadow: 0 15px 25px;
+    border-style: solid;
+    border-color: rgb(84, 74, 146);
+    padding: 50px;
+    background-color: rgb(255, 222, 184);
 }
-.login-box h2{
-    margin: 0 0 30px;
-    padding: 0;
-    color: white;
-    text-align: center;
+
+h1{
+    color:rgb(84, 74, 146);
+    font-family:sans-serif;
+    margin-left: 30px;
 }
-.login-box .user-box{
-    position: relative;
+
+input{
+    margin-bottom: 5px;
+    background-color: rgb(242, 234, 251);
+    border-radius: 5px;
+    border-color: rgb(84, 74, 146);
+    transition: 0.3s;
+    color: rgb(84, 74, 146);
 }
-.login-box .user-box input{
-    width: 100%;
-    padding: 10px 5px;
-    font-size: 16px;
-    color: white;
-    margin-bottom: 30px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 1px solid white;
-    outline: none;
+
+input:hover{
+    background-color: rgb(222, 205, 241);
 }
-.login-box .user-box label{
-    filter:drop-shadow(5px 2px 3px rgb(0, 0, 0));
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-}
-.login-box .user-box button{
-    border: none;
-    background: none;
-    font-size: 20px;
-    color: white;
-    padding-top: 10px;
-    overflow: hidden;
+button{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 170px;
     cursor: pointer;
+    transition: 0.3s;
+    border-style: solid;
+    border-color:  rgb(84, 74, 146) ;
+    color:rgb(84, 74, 146);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
 }
-.login-box .user-box button:hover{
-    color: orangered;
-    transition: 0.5s;
+button:hover{
+    background-color: rgb(84, 74, 146);
+    color: bisque;
 }
-.login-box .user-box button:active{
-    color:red;
+button:active{
+    background-color: rgb(62, 55, 106);
 }
+
